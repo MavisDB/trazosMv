@@ -1,7 +1,7 @@
 /* Navbar*/
 .img-logo{
-    width: 200px;
-    height: 50px;
+    width: 50px;
+    height: 70px;
     object-fit: cover;
 }
 html {
@@ -20,8 +20,8 @@ html {
     width: 100%;
     height: calc(100vh - 76px);
     display:flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items:flex-start;
     text-align: center;
 }
 
@@ -30,15 +30,16 @@ html {
     border-radius: 10px;
     padding: 20px;
     color:white;
-    width: 50vw;
+    width: 40vw;
+    margin-top: 120px;
+    margin-left: 50px;
 }
 
 /* Imahenes*/
-.Bienvenida{
-    height: 280px;
-    width: 500px;
+.bienvenida{
     object-fit: cover;
     object-position: center;
+    width: 100%;
 }
 
 .img-card{
