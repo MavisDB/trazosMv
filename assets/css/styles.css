@@ -7,12 +7,14 @@
 html {
     scroll-behavior: smooth;
 }
+.carousel-item{
+    height: 300px;
+    width: 240px;
 
-.img-carrusel{
-    height: calc(100vh - 76px);
-    object-fit: cover;
-    object-position: center;
 }
+
+
+
 
 .pantalla{
     position: absolute;
@@ -33,16 +35,30 @@ html {
     justify-content: center;
     align-items:flex-start;
     text-align: center;
+    
+}
+
+.pantalla_3{
+    z-index: 1;
+    width: 100%;
+    display:flex;
+    align-items:flex-start;
+    height: auto;
+    justify-content: center;
+    
+    
+    
 }
 
 .cuadro{
-    background-color: rgba(0, 0, 0, 0.445);
+    background-color: rgba(0, 0, 0, 0.329);
     border-radius: 10px;
     padding: 20px;
     color:white;
-    width: 40vw;
     margin-top: 120px;
     margin-left: 50px;
+    float:none;
+    
 }
 
 .cuadro_2{
@@ -55,10 +71,28 @@ html {
     object-position: center;
 }
 
+
+.cuadro_3{
+        background-color: rgba(0, 0, 0, 0.445);
+        border-radius: 10px;
+        padding: 20px;
+        color:white;
+        margin: 60px;
+        width: 100%;
+        height: auto;
+
+}
+
+.img-nosotros{
+    width: 450px;
+    height: 500px;
+    margin: 30px;
+}
+
+
 /* Imagenes*/
 .bienvenida{
     object-fit: cover;
-    object-position: center;
     width: 100vw;
 }
 
@@ -68,10 +102,6 @@ object-fit: cover;
 object-position: center;
 }
 
-.videoIframe{
-    width: 100%;
-    height: 250px;
-}
 
 .no-padding {
     padding-left: 0;
@@ -80,4 +110,45 @@ object-position: center;
 
   .card-body{
     color: black;
+    height: auto;
   }
+
+  hr{
+      block-size: 10px;  
+      background-color: black;
+      margin: 0;
+  }
+
+
+  .iconoPest{
+      width: 10px;
+      height: 30px;
+  }
+/* Curso */
+
+.card-text{
+    text-align: justify;
+    color: aliceblue;
+    
+
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+.card-link{
+    color: bisque;
+    text-decoration:double;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th{
+    background-color:rgba(80, 48, 8, 0.438);
+}
+
+table{
+    
+
+}
